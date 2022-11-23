@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import MovieCard from "./MovieCard";
+import MovieCard from "./components/MovieCard";
 import './App.css';
 import SearchIcon from './search.svg';
 
@@ -34,7 +34,7 @@ const App = ()=> {
 
     return(
         <div className="app">
-             <h1>MovieLand</h1>
+             <h1>Your Movies</h1>
             
             <div className="search">
             <input 

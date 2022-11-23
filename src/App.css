@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 
 * {
   margin: 0;
@@ -7,14 +7,16 @@
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --font-roboto: "Roboto Slab", serif;
   --font-raleway: "Raleway", sans-serif;
-}
+} */
 
 body {
-  font-family: var(--font-roboto);
-  background-color: #264653;
+  /* font-family: var(--font-roboto); */
+  font-family: 'Righteous', cursive;
+  background-image:url(./imgs/ajeet-mestry-UBhpOIHnazM-unsplash.jpg);
+  background-size: contain;
 }
 
 .app {
@@ -31,14 +33,27 @@ h1 {
   letter-spacing: 0.9px;
   background: linear-gradient(
     90deg,
-    rgba(249, 211, 180, 1) 0%,
+    rgba(249, 211, 180, 1) 76.2%,
     rgba(249, 211, 180, 0) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
+  
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 
 .search {
   width: 71%;
@@ -48,11 +63,13 @@ h1 {
   align-items: center;
   justify-content: center;
 
+  color: lightsteelblue;
+
   padding: 1.5rem 1.75rem;
   border-radius: 3rem;
-  background: #84A98C;
-  -webkit-box-shadow: 5px 5px 7px #c7cdd9, -5px -5px 7px #a9b3ba;
-  box-shadow: 5px 5px 7px #a4a7ae, -5px -5px 7px #a3abb0;
+  background: rgba(249, 211, 180, 1) ;
+  -webkit-box-shadow: 2px 2px 3px #c7cdd9, -2px -2px 3px #a9b3ba;
+  box-shadow: 3px 3px 3px #a4a7ae, -3px -3px 3px #fff;
 }
 
 .search input {
@@ -64,8 +81,8 @@ h1 {
   padding-right: 1rem;
 
   outline: none;
-  color: #fff;
-  background: #84A98C;
+  color: rgb(182, 168, 168);
+  background: rgba(249, 211, 180, 1) ;
   ;
 }
 
@@ -117,11 +134,11 @@ h1 {
 
 .movie {
   width: 310px;
-  height: 460px;
+  height: 392px;
   margin: 1.5rem;
 
   position: relative;
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
   border: none;
 
@@ -155,7 +172,7 @@ h1 {
 
 .movie div:nth-of-type(3) {
   z-index: 2;
-  background-color: #343739;
+  background-color: #9bbcd2;
   padding: 16px 24px 24px 24px;
 
   position: absolute;
