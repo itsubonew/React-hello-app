@@ -66,8 +66,8 @@ h1 {
   color: lightsteelblue;
 
   padding: 1.5rem 1.75rem;
-  border-radius: 3rem;
-  background: rgba(249, 211, 180, 1) ;
+  /* border-radius: 3rem; */
+  background: rgb(253, 220, 192) ;
   -webkit-box-shadow: 2px 2px 3px #c7cdd9, -2px -2px 3px #a9b3ba;
   box-shadow: 3px 3px 3px #a4a7ae, -3px -3px 3px #fff;
 }
@@ -82,8 +82,7 @@ h1 {
 
   outline: none;
   color: rgb(182, 168, 168);
-  background: rgba(249, 211, 180, 1) ;
-  ;
+  background: rgb(253, 220, 192) ;
 }
 
 .search img {
@@ -133,12 +132,12 @@ h1 {
 }
 
 .movie {
-  width: 310px;
-  height: 392px;
+  width: 242px;
+  height: 372px;
   margin: 1.5rem;
 
   position: relative;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   overflow: hidden;
   border: none;
 
