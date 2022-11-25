@@ -133,7 +133,7 @@ h1 {
 
 .movie {
   width: 242px;
-  height: 372px;
+  height: 345px;
   margin: 1.5rem;
 
   position: relative;
@@ -172,7 +172,7 @@ h1 {
 .movie div:nth-of-type(3) {
   z-index: 2;
   background-color: #9bbcd2;
-  padding: 16px 24px 24px 24px;
+  padding: 16px 24px 20px 24px;
 
   position: absolute;
   bottom: 0;

@@ -8,11 +8,11 @@ import SearchIcon from './search.svg';
 const API_URL= 'http://www.omdbapi.com?apikey=2ca23d48';
 
 const movie1 = {
-        "Title": "Juno",
-        "Year": "2007",
-        "imdbID": "tt0467406",
-        "Type": "movie",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTIwMDgwODc5Nl5BMl5BanBnXkFtZTYwMjQzMDM4._V1_SX300.jpg"
+        "Title": " ",
+        "Year": " ",
+        "imdbID": " ",
+        "Type": " ",
+        "Poster": " "
     
 }
 
@@ -29,12 +29,12 @@ const App = ()=> {
     }
 
     useEffect(()=>{
-        searchMovies('Juno')
+        searchMovies('')
     },[]);
 
     return(
         <div className="app">
-             <h1>Your Movies</h1>
+             <h1 className="title">Your Movies</h1>
             
             <div className="search">
             <input 
