@@ -4,8 +4,9 @@ import MovieCard from "./components/MovieCard";
 import './App.css';
 import SearchIcon from './search.svg';
 
-// API key 2ca23d48
-const API_URL= 'http://www.omdbapi.com?apikey=2ca23d48';
+// API key 
+const API_URL= `http://www.omdbapi.com?apikey=${process.env.REACT_APP_API_KEY}`;
+console.log(process.env.REACT_APP_API_KEY)
 
 const movie1 = {
         "Title": "",
