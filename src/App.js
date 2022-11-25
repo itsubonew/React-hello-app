@@ -8,11 +8,11 @@ import SearchIcon from './search.svg';
 const API_URL= 'http://www.omdbapi.com?apikey=2ca23d48';
 
 const movie1 = {
-        "Title": " ",
-        "Year": " ",
-        "imdbID": " ",
-        "Type": " ",
-        "Poster": " "
+        "Title": "",
+        "Year": "",
+        "imdbID": "",
+        "Type": "",
+        "Poster": ""
     
 }
 
